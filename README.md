@@ -82,6 +82,14 @@ git branch
 
 __Tip:__ use `-a` to list all remote and local branches
 
+#### Delete a local branch
+
+```sh
+git branch -d BRANCH_NAME
+```
+
+__Tip:__ The `-d` option is an alias for `--delete`, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use `-D`, which is an alias for `--delete --force`, which deletes the branch "irrespective of its merged status.
+
 ## Pulling
 
 #### Pull changes from remote server but saving uncommitted changes
