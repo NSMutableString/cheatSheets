@@ -80,6 +80,8 @@ git checkout -b BRANCH_NAME
 git branch
 ```
 
+__Tip:__ use `-a` to list all remote and local branches
+
 ## Pulling
 
 #### Pull changes from remote server but saving uncommitted changes
