@@ -119,7 +119,7 @@ __Tip:__ create an alias like `git fp` for this in your .gitConfig
 #### Rebase active branch to the given REF
 
 ```sh
-git rebase REF -i
+git rebase REF -i --autosquash
 ```
 
 __Tip:__ use `-i` to handle it interactive yourself
