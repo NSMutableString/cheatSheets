@@ -104,6 +104,16 @@ This command makes this for you:
 git pull REMOTE_ORIGIN TARGET_BRANCH --rebase --autostash
 ```
 
+#### Fetch all changes from remote server
+
+git fetch really only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch is great for getting a fresh view on all the things that happened in a remote repository.
+
+```sh
+git fetch --all
+```
+
+__Tip:__ add `--prune` for cleaning outdated local branches
+
 ## Pushing
 
 #### Push changes to remote server
@@ -124,11 +134,13 @@ git rebase REF -i --autosquash
 
 __Tip:__ use `-i` to handle it interactive yourself
 
-#### Rebase active branch on master
+#### Rebase active branch on origin/master
 
 ```sh
-git rebase -i master
+git rebase -i origin/master --autosquash
 ```
+
+__Tip:__ option `--autosquash` to handle fixups the correct way can be added as default in your .gitconfig
 
 #### Abort the current rebase process
 
