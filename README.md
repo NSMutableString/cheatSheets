@@ -38,6 +38,8 @@ git diff --cached
 git log -p
 ```
 
+__Tip:__ use `-- FILENAME` to list all the changes made to the given file.
+
 ## Commiting
 
 #### Stage all files ready to commit
