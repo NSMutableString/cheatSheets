@@ -94,6 +94,13 @@ __Tip:__ The `-d` option is an alias for `--delete`, which only deletes the bran
 
 ## Pulling
 
+#### Reset your master branch to remote equivalent
+
+```sh
+git fetch origin
+git reset --hard origin/master
+```
+
 #### Pull changes from remote server but saving uncommitted changes
 
 This command makes this for you:
@@ -148,6 +155,12 @@ __Tip:__ option `--autosquash` to handle fixups the correct way can be added as 
 
 ```sh
 git rebase --abort
+```
+
+#### Continue the current rebase process
+
+```sh
+git rebase --continue
 ```
 
 ## Stash
