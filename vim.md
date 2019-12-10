@@ -1,4 +1,4 @@
-# Vim cheat sheet
+# VIM cheat sheet
 
 > My VIM cheat sheet to handle interaction in terminal. Make sure the syntax highlighting is already enabled in your .vimrc to have a better user experience.
 
