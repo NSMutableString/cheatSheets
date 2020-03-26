@@ -10,6 +10,7 @@
 - [Pushing](#pushing)
 - [Rebase](#rebase)
 - [Stash](#stash)
+- [Cherry-picking](#cherry-picking)
 - [Advanced](#advanced)
 
 ## Verifying
@@ -175,6 +176,14 @@ git stash
 
 ```sh
 git pop
+```
+
+## Cherry-picking
+
+Add the commit with REF to your branch
+
+```sh
+git cherry-pick REF
 ```
 
 ## Advanced
