@@ -11,6 +11,7 @@
 - [Rebase](#rebase)
 - [Stash](#stash)
 - [Cherry-picking](#cherry-picking)
+- [Revert](#revert)
 - [Advanced](#advanced)
 
 ## Verifying
@@ -184,6 +185,14 @@ Add the commit with REF to your branch
 
 ```sh
 git cherry-pick REF
+```
+
+## Revert
+
+Revert a commit with REF from your branch
+
+```sh
+git revert REF
 ```
 
 ## Advanced
