@@ -209,6 +209,14 @@ git reflog
 git show BRANCH_NAME:FILE_NAME
 ```
 
+#### Revert the changes of a given file in given commit
+
+```sh
+git show <COMMIT> -- <FILE> | git apply -R
+```
+
+__Tip:__ first view file changes without `| git apply -R`
+
 #### remove your local git repository (Attention!)
 
 ```sh
