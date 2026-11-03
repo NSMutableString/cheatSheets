@@ -12,6 +12,7 @@
 - [Stash](#stash)
 - [Cherry-picking](#cherry-picking)
 - [Revert](#revert)
+- [Staging](#staging)
 - [Advanced](#advanced)
 
 ## Verifying
@@ -193,6 +194,14 @@ Revert a commit with REF from your branch
 
 ```sh
 git revert REF
+```
+
+## Staging
+
+Revert a file after you staged it via git add
+
+```sh
+git reset HEAD -- path/to/file
 ```
 
 ## Advanced
